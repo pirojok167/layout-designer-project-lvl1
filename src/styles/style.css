@@ -32,3 +32,21 @@
 .header-description a {
   margin-top: 40px;
 }
+
+/** VIDEO SECTION **/
+.video-section {
+  z-index: 1;
+
+  margin-bottom: -200px;
+
+  text-align: center;
+}
+
+.video {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+/** NAV SECTION **/
+.nav-section {
+  background: var(--main-dark);
+}
