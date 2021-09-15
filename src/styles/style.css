@@ -1,56 +1,34 @@
 /** CSS STYLE **/
-:root {
-  --white: #fff;
-  --translucent-white: #d7ccc0;
-  --light: #f5f4f0;
-  --main: #fe8a02;
-  --main-dark: #42413c;
-  --dark: #2a2626;
-  --translucent-dark: #908d8b;
-  --brown: #b09a81;
-  --blue: #1085c5;
+@import "variables.css";
+@import "fonts.css";
+@import "common.css";
+
+/** HEADER SECTION **/
+.header-section {
+  position: relative;
+
+  overflow: hidden;
+
+  background: #f5f4f0;
 }
 
-@font-face {
-  font-family: 'Open Sans';
-  src: url("../fonts/OpenSans-Regular.ttf");
+.header-image {
+  position: absolute;
+
+  top: 55px;
+  right: -270px;
+
+  z-index: 888;
+
+  height: 525px;
 }
 
-@font-face {
-  font-family: 'Neucha';
-  src: url("../fonts/Neucha-Regular.ttf");
+.header-title {
+  position: relative;
+
+  margin-bottom: 181px;
 }
 
-* {
-  color: #2a2626;
-
-  font: 16px/1.6em 'Open Sans', sans-serif;
-}
-
-h1,
-h2,
-h3 {
-  color: #2a2626;
-
-  font-family: 'Neucha', sans-serif;
-  line-height: 1.2em;
-}
-
-h1 {
-  font-size: 72px;
-}
-
-h2 {
-  font-size: 60px;
-}
-
-h3 {
-  font-size: 34px;
-}
-
-section {
-  align-content: center;
-
-  max-width: 1110px;
-  padding: 100px 0;
+.header-description a {
+  margin-top: 40px;
 }
