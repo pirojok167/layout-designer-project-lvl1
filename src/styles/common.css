@@ -13,6 +13,8 @@ h3 {
 
   margin: 0;
 
+  color: var(--main);
+
   font-weight: normal;
   font-family: 'Neucha', sans-serif;
 
@@ -98,6 +100,22 @@ h3 {
   flex-grow: 1;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.background-dark {
+  background: var(--main-dark);
+}
+
+.background-white {
+  background: var(--white);
+}
+
+.background-light {
+  background: var(--light);
+}
+
 .mr-30 {
   margin-right: 30px;
 }
@@ -106,6 +124,14 @@ h3 {
   margin-bottom: 30px;
 }
 
+.pt-100 {
+  padding-top: 100px;
+}
+
 .text-dark {
   color: var(--dark);
+}
+
+.text-white {
+  color: var(--white);
 }

@@ -43,10 +43,43 @@
 }
 
 .video {
+  border: none;
+
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 /** NAV SECTION **/
 .nav-section {
-  background: var(--main-dark);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  padding-top: 200px;
+}
+
+.card-title {
+  width: 350px;
+  margin-bottom: 24px;
+
+  font: 52px/1.2em 'Neucha', sans-serif;
+}
+
+.card {
+  box-sizing: border-box;
+
+  width: 350px;
+  margin-bottom: 24px;
+  padding: 24px;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.card-num {
+  display: block;
+  margin-bottom: 40px;
+
+  color: var(--main-dark);
+  font: 64px/1em 'Neucha', sans-serif;
 }
