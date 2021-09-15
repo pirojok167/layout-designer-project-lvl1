@@ -57,6 +57,10 @@ h3 {
   background: var(--main);
 }
 
+.btn-main:hover {
+  background: #EA7600;
+}
+
 .container {
   position: relative;
 

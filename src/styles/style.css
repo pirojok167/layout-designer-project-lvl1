@@ -72,6 +72,18 @@
   padding: 24px;
 }
 
+.card:hover {
+  color: var(--white);
+  background: var(--main);
+}
+
+.card:hover h3,
+.card:hover p,
+.card:hover .card-num
+{
+  color: var(--white);
+}
+
 .card p {
   margin-bottom: 0;
 }
